@@ -8,7 +8,7 @@ import { TOKEN } from './env';
 const token: string = TOKEN;
 const bot = new TelegramBot(token, {polling: true});
 
-const chats: string[] = ['281078066', '452403672'];
+const chats: string[] = ['281078066', '452403672', '586861913'];
 
 chats.forEach((chat) => {
   bot.sendMessage(chat, `You subscribed to Pasha train bot. Checking has been started!`);
