@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.28.2",
+    "lodash": "^4.17.5",
+    "node-telegram-bot-api": "^0.30.0",
+    "querystring": "^0.2.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}
