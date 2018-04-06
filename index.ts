@@ -75,6 +75,7 @@ const checkTrains = (watch: Watch) => {
           }
         });
       } catch (e) {
+        console.log(buffer, e);
         chats.forEach((chat) => {
           bot.sendMessage(chat, `BOT ERROR!!! ${e}`);
         });
